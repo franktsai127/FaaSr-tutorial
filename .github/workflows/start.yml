@@ -1,5 +1,7 @@
 name: Running Action- start
 on:
+  schedule:
+    - cron: '* * * * *'
   workflow_dispatch:
     inputs:
       ID:
